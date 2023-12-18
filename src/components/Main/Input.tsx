@@ -4,6 +4,7 @@ import uuid from "react-uuid";
 import { toast } from "react-toastify";
 import { queryAddTodo } from "../../api/todos";
 import { useQueryClient, useMutation, useQuery } from "react-query";
+import { todosTypes } from "../../types/todosTypes";
 
 export const Input = () => {
   const [title, setTitle] = useState("");
@@ -31,11 +32,14 @@ export const Input = () => {
       content,
       isDone: false,
     };
-
-    mutation.mutate(newTodo);
-    addnotify();
-    setTitle("");
-    setContent("");
+    try {
+      mutation.mutate(newTodo);
+      addnotify();
+      setTitle("");
+      setContent("");
+    } catch (error) {
+      console.log(error);
+    }
   };
   return (
     <S.Contatiner>

@@ -66,7 +66,8 @@ font-style: normal;
 
 .Toastify__toast-theme--light {
     background: none;
-    color: var(--toastify-text-color-dark);
+    color: var(--toastify-text-color-light);
+	font-weight: bolder;
 	--toastify-icon-color-success: #ffb6c1;
 	--toastify-font-family: "UhBeemysen";
 	--toastify-color-progress-success: #ffb6c1;

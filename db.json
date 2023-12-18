@@ -10,7 +10,7 @@
       "id": "2",
       "title": "React",
       "content": "Redux Toolkit",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "4",
@@ -19,33 +19,27 @@
       "isDone": true
     },
     {
-      "id": "6d03ed61-1a38-5386-4873-25c6b2fee529",
-      "title": "안녕",
-      "content": "하세요",
+      "id": "a47b078a-efa3-d25f-a690-57fd22c15c24",
+      "title": "typescript",
+      "content": "complete",
       "isDone": false
     },
     {
-      "id": "209982db-5d1e-ad63-80ef-209b757c9d07",
-      "title": "22222",
-      "content": "22222",
+      "id": "2916cc45-1fc5-d2f3-695b-3031249e0702",
+      "title": "Redux",
+      "content": "json server",
+      "isDone": true
+    },
+    {
+      "id": "24dd0555-10d8-dad1-ade8-cea7c801d387",
+      "title": "Javascript",
+      "content": "Next.js",
       "isDone": false
     },
     {
-      "id": "9ea196c7-7557-9c76-af91-6524fc051596",
-      "title": "3333",
-      "content": "333333",
-      "isDone": false
-    },
-    {
-      "id": "8ba78c4f-6ca2-6d26-ca5f-c5561c781c03",
-      "title": "",
-      "content": "",
-      "isDone": false
-    },
-    {
-      "id": "4981b727-8c5b-6087-5e50-e04cdec83e8b",
-      "title": "",
-      "content": "",
+      "id": "15e396f0-19e8-9136-ed62-979c10dab340",
+      "title": "final Project",
+      "content": "team building",
       "isDone": false
     }
   ]
